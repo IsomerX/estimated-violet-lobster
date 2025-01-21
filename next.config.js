@@ -21,7 +21,6 @@
         webpack: (config, { isServer }) => {
           config.stats = "verbose";
           return config;
-        },
-        output: "export"
+        }
       };
       export default config;
